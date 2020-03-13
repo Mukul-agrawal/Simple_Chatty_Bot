@@ -55,6 +55,8 @@ public class SimpleBot {
         int guess = scanner.nextInt();
         if (ans != guess) {
             System.out.println("Please, try again.");
+        } else {
+            System.out.println("Congratulations, have a nice day!");
         }
     }
 
