@@ -16,7 +16,7 @@ public class SimpleBot {
         int remainder3 = scanner.nextInt();
         int remainder5 = scanner.nextInt();
         int remainder7 = scanner.nextInt();
-
-        System.out.println("Your age is {yourAge}; that's a good time to start programming!");
+        int age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105;
+        System.out.println("Your age is " + age + "; that's a good time to start programming!");
     }
 }
