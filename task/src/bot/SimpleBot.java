@@ -53,12 +53,9 @@ public class SimpleBot {
                 "4. To interrupt the execution of a program.");
         int ans = 2;
         int guess = scanner.nextInt();
-        if (ans != guess) {
-            System.out.println("Please, try again.");
-        } else {
-            System.out.println("Congratulations, have a nice day!");
-        }
+
     }
+
 
     static void end() {
         System.out.println("Congratulations, have a nice day!"); // Do not change this text
