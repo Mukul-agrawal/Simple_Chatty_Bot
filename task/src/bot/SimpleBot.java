@@ -52,6 +52,7 @@ public class SimpleBot {
                 "3. To determine the execution time of a program.\n" +
                 "4. To interrupt the execution of a program.");
         int ans = 2;
+        int guess = scanner.nextInt();
     }
 
     static void end() {
