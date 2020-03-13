@@ -6,11 +6,11 @@ public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in); // Do not change this line
 
     public static void main(String[] args) {
-        greet("Aid", "2018"); // change it as you need
+        greet("Sam", "2020"); // change it as you need
         remindName();
         guessAge();
         count();
-        // ...
+        test();
         end();
     }
 
@@ -45,7 +45,12 @@ public class SimpleBot {
 
     static void test() {
         System.out.println("Let's test your programming knowledge.");
-        // write your code here
+        System.out.println("Why do we use methods?");
+        System.out.println("Why do we use methods?\n" +
+                "1. To repeat a statement multiple times.\n" +
+                "2. To decompose a program into several small subroutines.\n" +
+                "3. To determine the execution time of a program.\n" +
+                "4. To interrupt the execution of a program.");
     }
 
     static void end() {
