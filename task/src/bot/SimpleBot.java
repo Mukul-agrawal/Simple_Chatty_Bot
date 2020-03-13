@@ -51,6 +51,7 @@ public class SimpleBot {
                 "2. To decompose a program into several small subroutines.\n" +
                 "3. To determine the execution time of a program.\n" +
                 "4. To interrupt the execution of a program.");
+        int ans = 2;
     }
 
     static void end() {
